@@ -201,6 +201,12 @@ body {
         letter-spacing: 0.03em;
         color: #757575;
 }
+.upper-list{
+        margin-top: 94px;
+}
+.pupper-list{
+        margin-top: 10px;
+}
 .visually-hidden {
         position: absolute;
         width: 1px;
@@ -223,17 +229,25 @@ body {
         text-align: center;
         letter-spacing: 0.03em;
         color: #212121;
+        margin-top: 94px;
     
+}
+.img-title{
+        justify-content: space-between;
+        margin-top: 50px;
 }
 .ourbg{
     background: #F5F4FA;
+    
 }
 
 .icon{     
         box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
         border-radius: 0px 0px 4px 4px;
-        text-align: center;
-        
+        text-align: center;    
+}
+.icon-menu{
+        justify-content: space-between;
 }
 
 .bgfot {
