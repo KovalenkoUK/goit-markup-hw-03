@@ -9,29 +9,34 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/style.css" />
 </head>
 <body>
-    <header>
-        <nav>
-        <a class="web" href="./index.html">Web<span class="studio-color">Studio</span></a>
-            <ul>
+    <header class="header-info container flex">
+        <nav class="flex">
+        <a class="web flex" href="./index.html">Web<span class="studio-color">Studio</span></a>
+            <ul class="button-list">
                 <li><a class="web-study current" href="./index.html">Студія</a></li>
                 <li><a class="web-study" href="./portfolio.html">Портфоліо</a></li>
                 <li><a class="web-study" href="#">Контакти</a></li>
             </ul>
         </nav>
-            <ul>
+            <ul class="flex tel-list">
                 <li><a class="tel" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
                 <li><a class="tel" href="tel:+380961111111">+38 096 111 11 11</a></li>
             </ul>
     </header>
     <main>
+        
         <section class="fon">
+            <div class="container">
             <h1 class="busines">Ефективні рішення для вашого бізнесу</h1>
             <button class="order" type="button">Замовити послугу</button>
+            </div>
         </section>
-        <section>
+        <section class="container">
+            <div></div>
             <h2 class="visually-hidden">Особливості</h2>
                 <ul>
                     <li class=""><h3 class="upper">Увага до деталей</h3>
@@ -45,14 +50,16 @@
                 </ul>    
         </section>
         <section>
+            <div class="container">
             <h2 class="what-do">Чим ми займаємося</h2>
             <ul>
                 <li class=""><img src="./images/whatdiong/im1.jpg" width="370" alt="Компьютерний стіл"></li>
                 <li class=""><img src="./images/whatdiong/im2g.jpg" width="370" alt="лаптоп"></li>
                 <li class=""><img src="./images/whatdiong/img.jpg" width="370" alt="планшет"></li>
             </ul>
+        </div>
         </section>
-        <section class="ourbg">
+        <section class="ourbg container">
             <h2 class="our-com">Наша команда</h2>
             <ul>
                 <li class="icon">
@@ -78,7 +85,8 @@
             </ul>
         </section>
     </main>
-    <footer class="bgfot">
+    <div class="bgfot">
+    <footer class="container">
         <a class="web-footer" href="./index.html">Web<span class="studio-ft">Studio</span></a>
         <address>
             <ul>
@@ -88,5 +96,6 @@
             </ul>
         </address>
     </footer>
+    </div>
 </body>
 </html>
