@@ -138,7 +138,7 @@ body {
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
         width: 696px;
         height: 120px;
-        margin-left: 285px;
+        margin-left: 260px;
         
 }
 .fon{
@@ -146,10 +146,7 @@ body {
        /* width: 1600px;
         height: 600px; */
         padding-top: 200px;
-        padding-bottom: 200px;
-        
-        
-        
+        padding-bottom: 200px;   
 }
 .order{
         border: none;
@@ -162,6 +159,8 @@ body {
         text-align: center;
         letter-spacing: 0.06em;
         color: #FFFFFF;
+        margin-top: 30px;
+        margin-left: 525px;
 }
 .order:hover,.order:focus{
         background-color: #2196F3;
@@ -215,7 +214,7 @@ body {
         clip: rect(0 0 0 0);
         overflow: hidden;
 }
-.what-do{
+.section-title{
         
         font-style: normal;
         font-weight: 700;
@@ -229,17 +228,7 @@ body {
 .ourbg{
     background: #F5F4FA;
 }
-.our-com{
-    
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #212121;
-    
-}
+
 .icon{     
         box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
         border-radius: 0px 0px 4px 4px;
