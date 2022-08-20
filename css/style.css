@@ -54,7 +54,7 @@ button{
 }
 :root{
        --text-color: #212121;
-       --bggolor: #FFFFFF;
+       --bggolor: #ffffff;
        --neader-footer-textcolor: #757575; 
        --logo-color:#2196F3;
         
@@ -238,6 +238,8 @@ body {
 }
 .ourbg{
     background: #F5F4FA;
+    padding-top: px;
+    
     
 }
 
