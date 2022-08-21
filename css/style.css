@@ -237,12 +237,9 @@ body {
         margin-top: 50px;
 }
 .ourbg{
-    background: #F5F4FA;
-    padding-top: px;
-    
+        background: #F5F4FA;
     
 }
-
 .icon{     
         box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
         border-radius: 0px 0px 4px 4px;
@@ -254,6 +251,7 @@ body {
 
 .bgfot {
         background-color: #2F303A;
+        margin-top: 94px;
     
 }
 .web-footer{
@@ -265,6 +263,12 @@ body {
         line-height: 1.19;
         letter-spacing: 0.03em;
         color: #2196F3;
+        width: 145px;
+        height: 31px;
+}
+.web-container{
+        padding-top: 60px;
+        padding-bottom: 60px;
 }
 
 .maps-address:hover,.maps-address:focus{
@@ -310,11 +314,30 @@ body {
     background-color: #2196F3;
     cursor: pointer;
     color: #FFFFFF;
+    box-shadow: 0px 5px 5px rgb(103, 103, 103);
+    border-radius: 4px;
+}
+.flex-btn{
+        display: flex;
+        width: 575px;
+        height: 38px;
+        /* justify-content: space-between; */
+        gap: 8px;
+        margin-left: 450px;
+        margin-top: 94px;
+}
+.portfolio-item-flex{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        margin-top: 50px;
 }
 .portfolio-item{
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0,    0, 0.2);
     border-radius: 0px 0px 4px 4px;
     text-align: center;
+    width: 370px;
+    height: 404px;
 }
 .portfolioh{
         font-weight: 700;
