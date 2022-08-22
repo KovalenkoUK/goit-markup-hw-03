@@ -34,6 +34,10 @@ button{
         padding-right: 15px;
         
 }
+.section{
+        padding-top: 94px;
+        padding-bottom: 94px;
+}
 /*Стили*/
 .header-info{
         display: block;
@@ -47,9 +51,8 @@ button{
         line-height: 1.19;
         letter-spacing: 0.03em;
         color: #2196F3;
-        width: 145px;
-        height: 31px;
-        margin-top: 24px;
+        
+        
         
 }
 :root{
@@ -68,22 +71,19 @@ body {
 }
 .flex{
         display: flex;
+        align-items: center;
 }
 .button-list{
         display: flex;
-        width: 281px;
-        height: 16px;
+        gap: 50px;
         margin-left: 93px;
-        margin-top: 32px;
-        margin-bottom: 24px;
-        justify-content: space-between; 
+        
 }
 .tel-list{
-        justify-content: space-between;
-        width: 307px;
-        height: 16px;
-        margin-left: 344px;
-        margin-top: 32px;
+        align-items: center;
+        margin-left: auto;
+        /* margin-top: 32px; */
+        gap: 50px;
 }
 .web-study{
    
@@ -93,6 +93,9 @@ body {
         line-height: 1.14;
         letter-spacing: 0.02em;
         color: var(--text-color);
+        padding-top: 32px;
+        padding-bottom: 32px;
+        display: flex;
 
 }
 
@@ -137,7 +140,7 @@ body {
         color: #FFFFFF;
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
         width: 696px;
-        height: 120px;
+        margin: 0 auto;
         margin-left: 260px;
         
 }
@@ -146,21 +149,24 @@ body {
        /* width: 1600px;
         height: 600px; */
         padding-top: 200px;
-        padding-bottom: 200px;   
+        padding-bottom: 200px;
+        text-align: center;
+           
 }
 .order{
         border: none;
+        border-radius: 4px;
         background-color: #188CE8;
         font-weight: 700;
         font-size: 16px;
         line-height: 1.87;
-        display: flex;
-        align-items: center;
         text-align: center;
         letter-spacing: 0.06em;
         color: #FFFFFF;
         margin-top: 30px;
-        margin-left: 525px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        
 }
 .order:hover,.order:focus{
         background-color: #2196F3;
@@ -202,7 +208,11 @@ body {
         color: #757575;
 }
 .upper-list{
-        margin-top: 94px;
+        /* margin-top: 94px; */
+}
+.flex-upper{
+        display: flex;
+        gap: 30px;
 }
 .pupper-list{
         margin-top: 10px;
@@ -229,12 +239,12 @@ body {
         text-align: center;
         letter-spacing: 0.03em;
         color: #212121;
-        margin-top: 94px;
+        padding-bottom: 50px;
     
 }
 .img-title{
         justify-content: space-between;
-        margin-top: 50px;
+        
 }
 .ourbg{
         background: #F5F4FA;
@@ -243,7 +253,8 @@ body {
 .icon{     
         box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
         border-radius: 0px 0px 4px 4px;
-        text-align: center;    
+        text-align: center;  
+        background-color: #fff;  
 }
 .icon-menu{
         justify-content: space-between;
@@ -251,7 +262,7 @@ body {
 
 .bgfot {
         background-color: #2F303A;
-        margin-top: 94px;
+        
     
 }
 .web-footer{
