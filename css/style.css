@@ -173,21 +173,24 @@ body {
         
         
 }
-.people{
+.team-name{
         font-style: normal;
         font-weight: 700;
         font-size: 16px;
         line-height: 1.14;
         letter-spacing: 0.03em;
         color: #212121;
+        margin-bottom: 10px;
+        margin-top: 30px;
 }
-.ppeople{
+.team-job{
         font-weight: 400;
         font-size: 16px;
          line-height: 19px;
         text-align: center;
         letter-spacing: 0.03em;
         color: #757575;
+        margin-bottom: 30px;
         
 }
 .upper{
@@ -245,23 +248,28 @@ body {
 .img-title{
         justify-content: space-between;
         
+        
 }
-.ourbg{
+.team{
         background: #F5F4FA;
     
 }
-.icon{     
+.team-item{     
         box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
         border-radius: 0px 0px 4px 4px;
         text-align: center;  
         background-color: #fff;  
+        
 }
-.icon-menu{
+.team-list{
         justify-content: space-between;
+        
 }
 
 .bgfot {
         background-color: #2F303A;
+        padding-top: 60px;
+        padding-bottom: 60px;
         
     
 }
@@ -278,8 +286,14 @@ body {
         height: 31px;
 }
 .web-container{
-        padding-top: 60px;
-        padding-bottom: 60px;
+        /* padding-top: 60px;
+        padding-bottom: 60px; */
+}
+.address-item{
+        margin-bottom: 9px;
+}
+.web-style{
+        margin-top: 20px;
 }
 
 .maps-address:hover,.maps-address:focus{
@@ -313,18 +327,19 @@ body {
 
 /* Портфолио*/
 .header-border{
-border-width: 0px 0px 1px 0px;
-        border-style: solid dashed solid dashed;
-        border-color: #9c27b0 #f3e5f5 #606060 #f3e5f5;
+        border: 1px solid #ECECEC;
 
 }
 .portfolio-btn{
+        font-family: 'Roboto';
         font-weight: 500;
         font-size: 16px;
         line-height: 1.62;
         text-align: center;
         letter-spacing: 0.03em;
         border: none;
+        border-radius: 4px;
+        background: #F5F4FA;
         color: var(--text-color);
 }
 .portfolio-btn:hover, .portfolio-btn:focus {
@@ -336,12 +351,8 @@ border-width: 0px 0px 1px 0px;
 }
 .flex-btn{
         display: flex;
-        width: 575px;
-        height: 38px;
-        /* justify-content: space-between; */
         gap: 8px;
-        margin-left: 450px;
-        margin-top: 94px;
+        justify-content: center;
 }
 .portfolio-item-flex{
         display: flex;
@@ -352,9 +363,15 @@ border-width: 0px 0px 1px 0px;
 .portfolio-item{
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0,    0, 0.2);
     border-radius: 0px 0px 4px 4px;
-    text-align: center;
+    
     width: 370px;
-    height: 404px;
+    
+}
+.portfolio-text{
+        background: #FFFFFF;
+        border: 1px solid #EEEEEE;
+        padding-left: 24px;
+        padding-bottom: 20px;
 }
 .portfolioh{
         font-weight: 700;
@@ -362,6 +379,7 @@ border-width: 0px 0px 1px 0px;
         line-height: 2;
         letter-spacing: 0.06em;
         color: #212121;
+        margin-top: 20px;
 }
 .portfoliop{
         font-weight: 400;
@@ -369,6 +387,7 @@ border-width: 0px 0px 1px 0px;
         line-height: 1.87;
         letter-spacing: 0.03em;
         color: #757575;
+        margin-top: 4px;
 }
 
 
